@@ -8,6 +8,7 @@ __Fonctionnalités :__
 <li>Création, modification et suppression de projets</li>
 <li>Création, modification et suppression de notes</li>
 <li>Création, modification et suppression d'indexs</li>
+<li>Conversion et téléchargement de projets en PDF</li>
 <li>Assosiation de plusieurs notes à un projet</li>
 <li>Modification du nom et du thème visuel du site</li>
 
