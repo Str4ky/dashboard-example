@@ -7,7 +7,13 @@
     $cnn->query($requete) or die(print_r($bdd->errorInfo()));
 
     $requete2 = "DELETE FROM projects  WHERE id = '$id'";
-    $cnn->query($requete2) or die(print_r($bdd->errorInfo()));
+    $cnn->query($requete2) or die(print_r($bdd->errorInfo())));
 
-    header("Location: ../projects");
+    $requete3 = "UPDATE notes SET associated_project = 0 WHERE associated_project = '$id'";
+    $cnn->query($requete3) or die(print_r($bdd->errorInfo())));
+
+    header('Location: ../projects');
 ?>
+
+
+
