@@ -20,7 +20,7 @@ Importer le fichier __dashboard.sql__ sur votre base de donnée à l'aide de vot
 
 Dans le fichier __config/database.php__ changez ces 4 lignes avec les identifiants de connexion à votre base de données
 
-```
+```php
 $host = "localhost";
 $bdd = "dashboard";
 $user = "root";
@@ -61,7 +61,7 @@ else if($row['theme'] == 3) {
 
 Changez le 3 en 4 par exemple pour votre nouveau thème et copiez cette ligne dans chaque autres précédents blocs
 
-```php
+```html
 <option value='4' selected>Bleu sombre</option>";
 ```
 
