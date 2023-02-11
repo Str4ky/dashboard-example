@@ -67,8 +67,6 @@ Changez le 3 en 4 par exemple pour votre nouveau thème et copiez cette ligne da
 
 N'oubliez pas de mettre l'option "selected" à côté de votre theme seulement dans le bloc correspondant au theme et de ne pas mettre le "selected" dans les autres blocs
 
-Si les icônes de certification ou de type de membres ne vous plaisent pas, vous pouvez les changer dans ce fichier `config/badges.php`
-
 <br>
 
 __Test du projet :__
