@@ -31,7 +31,7 @@ $passwd = "";
 
 __Personalisation :__
 
-Le tableau de bord permet d'avoir plusieurs thèmes, pour en rajouter, rajouter ce morceau de code dans le fichier `assets/css/style.php`
+Le tableau de bord permet d'avoir plusieurs thèmes, pour en rajouter, ajoutez ce morceau de code dans le fichier `assets/css/style.php`
 
 ```php
 else if($row['theme'] == 3) {
