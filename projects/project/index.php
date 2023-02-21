@@ -91,7 +91,7 @@
       $resultat4 = $cnn->query($requete4) or die(print_r($bdd->errorInfo()));
       while($row4 = $resultat4->fetch()){
         if($row4['is_done'] == 1) {
-          echo "<h3>{$row4['label']} <a href='../../scripts/move_task.php?id={$row4['id']}'><br><br><i class='fa-solid fa-arrow-left button' style='margin-right: 14px;'></i></a><a href='../../scripts/move_task.php?id={$row4['id']}'><i class='fa-solid fa-pen button' style='margin-bottom: 16px; margin-right: 8px;'></i></a> <a href='../../scripts/delete_task.php?id={$row4['id']}'><i class='fa-solid fa-trash button'></i></a></h3>";
+          echo "<h3>{$row4['label']} <a href='../../scripts/move_task.php?id={$row4['id']}'><br><br><i class='fa-solid fa-arrow-left button' style='margin-right: 14px;'></i></a><a href='edit/task?id={$row4['id']}'><i class='fa-solid fa-pen button' style='margin-bottom: 16px; margin-right: 8px;'></i></a> <a href='../../scripts/delete_task.php?id={$row4['id']}'><i class='fa-solid fa-trash button'></i></a></h3>";
         }
       }
       echo "</div>
