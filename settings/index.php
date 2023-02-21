@@ -43,7 +43,7 @@
     </div>
     <div class="menu">
       <i class="fa-solid fa-book logo"></i>
-      <a href="../indexes" class="menu-item">Index</a>
+      <a href="../indexes" class="menu-item">Indexs</a>
     </div>
     <div class="menu-active menu-last">
       <i class="fa-solid fa-cog logo"></i>
@@ -58,7 +58,7 @@
       $resultat = $cnn->query($requete) or die(print_r($bdd->errorInfo()));
       while($row = $resultat->fetch()){
         echo "<form method='post' action='../scripts/set_settings.php'>
-        <h2>Nom du site</h2>
+        <h2>Nom du site</h1>
         <input type='text' placeholder='Nom du site...' value='{$row['name']}' id='name' name='name' style='width: 15%;' required><br><br>
         <h2>Thème</h2>
         <select id='theme' name='theme' style='width: 10%;'>

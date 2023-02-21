@@ -14,5 +14,3 @@
 
     header("Location: ../projects");
 ?>
-
-

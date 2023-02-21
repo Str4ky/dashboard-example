@@ -51,7 +51,7 @@
     </div>
     <div class="menu">
       <i class="fa-solid fa-book logo"></i>
-      <a href="../" class="menu-item">Index</a>
+      <a href="../" class="menu-item">Indexs</a>
     </div>
     <div class="menu menu-last">
       <i class="fa-solid fa-cog logo"></i>

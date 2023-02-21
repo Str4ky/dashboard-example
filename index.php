@@ -43,7 +43,7 @@
     </div>
     <div class="menu">
       <i class="fa-solid fa-book logo"></i>
-      <a href="indexes" class="menu-item">Index</a>
+      <a href="indexes" class="menu-item">Indexs</a>
     </div>
     <div class="menu menu-last">
       <i class="fa-solid fa-cog logo"></i>
