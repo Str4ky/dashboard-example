@@ -1,7 +1,7 @@
 # dashboard-example
 Un tableau de bord personnalisé réalisé en PHP
 
-<img src="preview.png" alt="Prévisualisation">
+<img src="previsu.png" alt="Prévisualisation">
 
 __Fonctionnalités :__
 
