@@ -51,7 +51,6 @@
     </div>
   </div>
   <div class="main-content">
-    <center>
     <?php
     if(!empty($_GET['id'])) {
       echo "<h1>Modifier un projet</h1>
@@ -74,7 +73,6 @@
     echo "<h1>Vous n'avez pas défini de projet</h1>";
   }
     ?>
-    </center>
   </div>
 </div>
 </body>
