@@ -51,7 +51,6 @@
     </div>
   </div>
   <div class="main-content">
-    <center>
     <?php
     if(!empty($_GET['id'])) {
     echo "<h1>Modifier une tâche</h1>
@@ -73,7 +72,6 @@
     echo "<h1>Vous n'avez pas défini de tâche</h1>";
   }
     ?>
-    </center>
   </div>
 </div>
 </body>
