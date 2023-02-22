@@ -51,7 +51,7 @@
     </div>
   </div>
   <div class="main-content">
-    <h1 class="content-title" style="padding-bottom: 40px;">Index</h1>
+    <h1 class="content-title" style="padding-bottom: 40px;">Modifier un Index</h1>
     <?php
       if(!empty($_GET['id'])) {
         $requete = "SELECT title, content FROM indexes WHERE id = {$_GET['id']}";
